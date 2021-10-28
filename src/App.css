@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+body {
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+      'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 5em;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p {
+  margin-bottom: 1.6em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+label {
+  display: block;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+input,
+textarea {
+  padding: 0.5em 1em;
+  margin-bottom: 1rem;
+  line-height: 1;
+  font-size: 18px;
+  border: 1px solid hsl(0, 0%, 93%);
+}
+
+button {
+  border: 1px solid hsl(0, 0%, 93%);
+  background: hsl(0, 0%, 93%);
+  padding: 0.5em 1em;
+  cursor: pointer;
+  font-size: 18px;
+  margin: 0.5rem 0.5rem 0.5rem 0;
+}
+
+button:hover {
+  background: #c9c6c6;
+}
+
+.button-primary {
+  background-color: rgb(36, 170, 87);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.button-primary:hover {
+  background-color: rgb(10, 128, 55);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* UseContextExample styles ---------------------------- */
+.layout-container {
+  position: relative;
+  display: flex;
+  padding: 2rem;
+  border: 1px solid hsl(0, 11%, 80%);
+  border-radius: 3px;
+}
+.sidebar {
+  background-color:hsla(210, 28%, 85%, 0.45);
+  border-radius: 2px;
+  width: 25%;
+  padding: 0 1rem;
+  margin: 0 0.5rem;
+}
+.sidebar a {
+  display: block;
+  margin: 1rem 0;
+  color: inherit;
+}
+.layout-container article {
+  padding: 0 1rem;
 }

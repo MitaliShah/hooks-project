@@ -2,17 +2,17 @@ import React from 'react';
 
 // components
 // import UseMemoExample from './UseMemoExample';
-import UseContextExample from './components/UseContextExample';
+// import UseContextExample from './components/UseContextExample';
 // import UseCallbackExample from './UseCallbackExample';
-// import UseRefExample from './UseRefExample';
+import UseRefExample from './components/UseRefExample';
 
 // styles
 import './App.css';
 
 const App = () => (
     <>
-        <UseContextExample />
-        {/* <UseRefExample /> */}
+        {/* <UseContextExample /> */}
+        <UseRefExample />
         {/* <UseMemoExample /> */}        
         {/* <UseCallbackExample />*/}
     </>

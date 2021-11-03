@@ -1,9 +1,9 @@
 import React from 'react';
 
 // components
-import UseMemoExample from './components/UseMemoExample';
+// import UseMemoExample from './components/UseMemoExample';
 // import UseContextExample from './components/UseContextExample';
-// import UseCallbackExample from './UseCallbackExample';
+import UseCallbackExample from './components/UseCallbackExample';
 // import UseRefExample from './components/UseRefExample';
 
 // styles
@@ -13,8 +13,8 @@ const App = () => (
     <>
         {/* <UseContextExample /> */}
         {/* <UseRefExample /> */}
-        <UseMemoExample />        
-        {/* <UseCallbackExample />*/}
+        {/* <UseMemoExample />         */}
+        <UseCallbackExample />
     </>
 );
 

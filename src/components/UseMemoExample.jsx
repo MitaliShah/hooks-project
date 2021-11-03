@@ -25,8 +25,9 @@ export default () => {
         setCurrentWord(wordList[wordIndex + 1 === wordList.length ? 0 : wordIndex + 1]);
     };
 
+    // const letterCount = useMemo(() => countLettersInWord(currentWord), [currentWord]);
     const letterCount = useMemo(() => countLettersInWord(currentWord), [currentWord]);
-
+    
     // const letterCount = countLettersInWord(currentWord);
 
     useEffect(() => {
